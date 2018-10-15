@@ -9,6 +9,7 @@ print(protectedURL)
 wget.download(protectedURL)
 
 root = Dataset("chess_pet_wwg_196101.nc", "w", format="NETCDF4")
+print('\n')
 print(root.data_model)
 
 #do stuff here
